@@ -4,7 +4,7 @@ jdk:
 
 addons:
  sonarcloud:
-  organization:"vanessa1211"
+  organization:"Vanessa1211"
   token:
    secure:"0b115e9f6d0a27d900f474290bf441dc645bf04c"
 script:
