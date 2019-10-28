@@ -2,14 +2,8 @@ language:java
 jdk:
  -openjdk8
 
-addons:
- sonarcloud:
-  organization:Vanessa1211
-  token:
-   secure:0b115e9f6d0a27d900f474290bf441dc645bf04c
-script:
- -ant build
- -sonar-scanner 
+script:-ant build
+ 
 
 
 
